@@ -1,0 +1,29 @@
+object TileProperties {
+  val Amethyst = 67
+  val BackgroundOffset = 333
+  val BlueWire = 331
+  val Chest = 21
+  val CopperCache = 330
+  val Cropped = 326
+  val Diamond = 68
+  val Emerald = 65
+  val EnchantedSword = 333
+  val ExposedGems = 178
+  val GoldCache = 332
+  val GreenWire = 332
+  val Honey = 329
+  val LargeDetritus = 186
+  val LargeDetritus2 = 187
+  val Lava = 328
+  val Processed = 325
+  val RedWire = 330
+  val Ruby = 64
+  val Sapphire = 63
+  val Sign = 55
+  val SilverCache = 331
+  val SmallDetritus = 185
+  val Topaz = 66
+  val Unknown = 273
+  val WallOffset = 339
+  val Water = 327
+}

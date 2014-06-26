@@ -13,7 +13,6 @@ read_bool = lambda f: struct.unpack('?', f.read(1))[0]
 
 def read_byte(f):
 	b = f.read(1)
-	print(bytearray(b)[0])
 	return struct.unpack('=b', bytearray(b))[0]
 
 def read_prefixed_string(f):
@@ -92,6 +91,7 @@ isDayTime = read_bool(f)
 moonPhase = read_int(f)
 isBloodMoon = read_bool(f)
 isEclipse = read_bool(f)
+
 dungeonPoint = {}
 dungeonPoint["x"] = read_int(f)
 dungeonPoint["y"] = read_int(f)
@@ -153,13 +153,15 @@ clouds_active = read_int(f)
 num_clouds = read_short(f)
 wind_speed = read_float(f)
 
+print(clouds_active, num_clouds, wind_speed)
+
+exit()
+
 for i in reversed(range(read_int(f))):
 	print(i)
 
 saved["angler"] = read_bool(f)
 angler_quest = read_int(f)
-
-exit()
 
 tiles = [[0 for x in range(bounds["maxY"])] for x in range(bounds["maxX"])] 
 

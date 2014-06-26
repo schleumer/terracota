@@ -4,7 +4,7 @@
 		module="terracota$sources_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20140624033643"
+		publication="20140624235151"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>

@@ -4,8 +4,12 @@
     <facet type="scala" name="Scala">
       <configuration>
         <option name="compilerLibraryLevel" value="Project" />
-        <option name="compilerLibraryName" value="SBT:: scala-compiler-bundle:2.10.3" />
+        <option name="compilerLibraryName" value="SBT:: scala-compiler-bundle:2.11.1" />
+        <option name="compilerOptions" value="-feature" />
+        <option name="deprecationWarnings" value="true" />
+        <option name="explainTypeErrors" value="true" />
         <option name="languageLevel" value="Scala 2.11" />
+        <option name="uncheckedWarnings" value="true" />
       </configuration>
     </facet>
   </component>
@@ -27,7 +31,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.10.3" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.1" level="project" />
   </component>
 </module>
 

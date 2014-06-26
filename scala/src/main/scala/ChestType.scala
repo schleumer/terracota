@@ -1,0 +1,31 @@
+object ChestType {
+  val Unknown = -1
+  val Chest = 0
+  val GoldChest = 0
+  val LockedGoldChest = 0
+  val ShadowChest = 0
+  val LockedShadowChest = 0
+  val Barrel = 5
+  val TrashCan = 5
+  val EbonwoodChest = 5
+  val RichMahoganyChest = 5
+  val PearlwoodChest = 5
+  val IvyChest = 10
+  val IceChest = 10
+  val LivingWoodChest = 10
+  val SkywareChest = 10
+  val ShadewoodChest = 10
+  val WebCoveredChest = 15
+  val LihzahrdChest = 15
+  val WaterChest = 15
+  val JungleChest = 15
+  val CorruptionChest = 15
+  val CrimsonChest = 20
+  val HallowedChest = 20
+  val FrozenChest = 20
+  val LockedJungleChest = 20
+  val LockedCorruptionChest = 20
+  val LockedCrimsonChest = 25
+  val LockedHallowedChest = 25
+  val LockedFrozenChest = 27
+}

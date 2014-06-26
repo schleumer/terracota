@@ -1,11 +1,11 @@
-[info] Updating {file:/C:/Users/Wesley/Dropbox/workspace/testes/terracota/project/}terracota-build...
-[debug] :: resolving dependencies :: default#terracota-build;0.1-SNAPSHOT
+[info] Updating {file:/C:/Users/Wesley/Dropbox/workspace/testes/terracota/scala/project/}scala-build...
+[debug] :: resolving dependencies :: default#scala-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
 [info] Resolving default#global-plugins;0.0 ...
 [debug] sbt-chain: Checking cache for: dependency: default#global-plugins;0.0 {compile=[default(compile)]}
 [debug] 	found default#global-plugins;0.0 in inter-project
@@ -16,29 +16,29 @@
 [debug] 	typesafe-ivy-releases: revision in cache: org.jetbrains#sbt-structure;2.4.0
 [debug] 	found org.jetbrains#sbt-structure;2.4.0 in sbt-chain
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#global-plugins;0.0->org.jetbrains#sbt-structure;2.4.0 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#global-plugins;0.0->org.jetbrains#sbt-structure;2.4.0 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->default(compile)]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7249be
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b256c
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3
 [debug] 	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.10.3
 [debug] 	found org.scala-lang#scala-library;2.10.3 in sbt-chain
 [debug] 	[2.10.3] org.scala-lang#scala-library;2.10.3
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->runtime]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->compile]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->master]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.2 [provided->default(compile)]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->runtime]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->master]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.2 [provided->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.2 {provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.2
@@ -572,19 +572,19 @@
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.2->org.scala-lang#scala-library;2.10.3 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.2->org.scala-sbt#interface;0.13.2 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#global-plugins;0.0->org.jetbrains#sbt-structure;2.4.0 [compile->default(compile)]
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->default(compile)]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->runtime]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->compile]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->master]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.2 [provided->default(compile)]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->default(compile)]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->runtime]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->master]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.2 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.2->org.scala-lang#scala-library;2.10.3 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.2->org.scala-lang#scala-library;2.10.3 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.2->org.scala-lang#scala-library;2.10.3 [compile->compile]
@@ -898,26 +898,26 @@
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.2->org.scala-lang#scala-library;2.10.3 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.2->org.scala-sbt#interface;0.13.2 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#global-plugins;0.0->org.jetbrains#sbt-structure;2.4.0 [compile->default(compile)]
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#global-plugins;0.0->org.jetbrains#sbt-structure;2.4.0 [compile->default(compile)]
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->default(compile)]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->runtime]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->compile]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->master]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.2 [provided->default(compile)]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->default(compile)]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->runtime]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->master]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.2 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.2->org.scala-lang#scala-library;2.10.3 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.2->org.scala-lang#scala-library;2.10.3 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.2->org.scala-lang#scala-library;2.10.3 [compile->compile]
@@ -1231,18 +1231,18 @@
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.2->org.scala-lang#scala-library;2.10.3 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.2->org.scala-sbt#interface;0.13.2 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#terracota-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->default]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->runtime]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->compile]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->default]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->runtime]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->default]
@@ -1260,8 +1260,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->master]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->master]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#jline;2.10.3 [optional->master(*)]
 [info] Resolving org.scala-lang#jline;2.10.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.3 {optional=[compile(*), master(*)]}
@@ -1276,11 +1276,11 @@
 [debug] 	typesafe-ivy-releases: revision in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.3->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->default]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->runtime]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->compile]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->master]
-[debug] == resolving dependencies default#terracota-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->default]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->runtime]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->master]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->optional(default)]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.jetbrains#sbt-structure;2.4.0!sbt-structure.jar
@@ -1331,19 +1331,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.2!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 753ms :: artifacts dl 31ms
-[debug] 	report for default#terracota-build;0.1-SNAPSHOT compile produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\project\target\resolution-cache\reports\default-terracota-build-compile.xml
-[debug] 	report for default#terracota-build;0.1-SNAPSHOT runtime produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\project\target\resolution-cache\reports\default-terracota-build-runtime.xml
-[debug] 	report for default#terracota-build;0.1-SNAPSHOT test produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\project\target\resolution-cache\reports\default-terracota-build-test.xml
-[debug] 	report for default#terracota-build;0.1-SNAPSHOT provided produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\project\target\resolution-cache\reports\default-terracota-build-provided.xml
-[debug] 	report for default#terracota-build;0.1-SNAPSHOT optional produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\project\target\resolution-cache\reports\default-terracota-build-optional.xml
-[debug] 	report for default#terracota-build;0.1-SNAPSHOT compile-internal produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\project\target\resolution-cache\reports\default-terracota-build-compile-internal.xml
-[debug] 	report for default#terracota-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\project\target\resolution-cache\reports\default-terracota-build-runtime-internal.xml
-[debug] 	report for default#terracota-build;0.1-SNAPSHOT test-internal produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\project\target\resolution-cache\reports\default-terracota-build-test-internal.xml
-[debug] 	report for default#terracota-build;0.1-SNAPSHOT plugin produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\project\target\resolution-cache\reports\default-terracota-build-plugin.xml
-[debug] 	report for default#terracota-build;0.1-SNAPSHOT sources produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\project\target\resolution-cache\reports\default-terracota-build-sources.xml
-[debug] 	report for default#terracota-build;0.1-SNAPSHOT docs produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\project\target\resolution-cache\reports\default-terracota-build-docs.xml
-[debug] 	report for default#terracota-build;0.1-SNAPSHOT pom produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\project\target\resolution-cache\reports\default-terracota-build-pom.xml
-[debug] 	report for default#terracota-build;0.1-SNAPSHOT scala-tool produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\project\target\resolution-cache\reports\default-terracota-build-scala-tool.xml
-[debug] 	resolve done (753ms resolve - 31ms download)
+[debug] :: resolution report :: resolve 1179ms :: artifacts dl 40ms
+[debug] 	report for default#scala-build;0.1-SNAPSHOT compile produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\scala\project\target\resolution-cache\reports\default-scala-build-compile.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT runtime produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\scala\project\target\resolution-cache\reports\default-scala-build-runtime.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT test produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\scala\project\target\resolution-cache\reports\default-scala-build-test.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT provided produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\scala\project\target\resolution-cache\reports\default-scala-build-provided.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT optional produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\scala\project\target\resolution-cache\reports\default-scala-build-optional.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT compile-internal produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\scala\project\target\resolution-cache\reports\default-scala-build-compile-internal.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\scala\project\target\resolution-cache\reports\default-scala-build-runtime-internal.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT test-internal produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\scala\project\target\resolution-cache\reports\default-scala-build-test-internal.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT plugin produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\scala\project\target\resolution-cache\reports\default-scala-build-plugin.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT sources produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\scala\project\target\resolution-cache\reports\default-scala-build-sources.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT docs produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\scala\project\target\resolution-cache\reports\default-scala-build-docs.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT pom produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\scala\project\target\resolution-cache\reports\default-scala-build-pom.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT scala-tool produced in C:\Users\Wesley\Dropbox\workspace\testes\terracota\scala\project\target\resolution-cache\reports\default-scala-build-scala-tool.xml
+[debug] 	resolve done (1179ms resolve - 40ms download)
 [info] Done updating.

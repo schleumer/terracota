@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala.iml" filepath="$PROJECT_DIR$/.idea/modules/scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/terracota.iml" filepath="$PROJECT_DIR$/.idea/modules/terracota.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/terracota-build.iml" filepath="$PROJECT_DIR$/.idea/modules/terracota-build.iml" />
     </modules>
   </component>
 </project>
